@@ -1,10 +1,13 @@
 import React from 'react'
+import Link from 'next/link'
 
-const HeroSection = () => {
+const HeroSection = ({title}) => {
   return (
    <>
-    <div className='h-screen w-full bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100'>
-        <h1>EXPLORE THESE AMAZING MOVIE REVIEWS</h1>
+    <div className='h-screen w-full bg-gray-200'>
+        <h1>{title}</h1>
+        <span>HADKHDEJFEAUFEANFKAFFWAOPEWFIPAIF</span>
+       <Link href="/watch"><button>Lets go</button></Link> 
     </div>
    </>
   )
